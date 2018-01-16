@@ -7,7 +7,7 @@ $(document).ready(function () { // Makes it possible to start to manipulate the 
       $('table').append("<tr></tr>"); // This loop creates a row of cells
       for (var j = 1; j <= col_input; j++) {
         $('tr:last').append("<td></td>"); // This loop adds a cell after every row
-        $('td').attr("class", 'cells') // for every 'td' created, a class of 'cells' is created
+        $('td').attr("class", 'cells') // For every 'td', a class of 'cells' is created
       }
     }
     grid.preventDefault(); // Prevents the grid to be deleted after it is created
