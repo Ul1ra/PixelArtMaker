@@ -16,5 +16,5 @@ $(document).ready(function () { // Makes it possible to start to manipulate the 
       var paint = $('#colorPicker').val();
       $(event.target).css('background-color', paint); // Lets the chosen color on a click event to be added to the grid
     });
-  });
+  }); 
 });
